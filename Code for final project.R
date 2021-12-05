@@ -1,9 +1,6 @@
-#Reading in dataset
-knitr::opts_chunk$set(echo = TRUE)
-library(gt)
 library(tidyverse)
-library(ggplot2)
-library(readr)
+
+#Reading in dataset
 birth <- read_csv("NationalAndStatePregnancy_PublicUse.csv")
 
 #Select and filtering
